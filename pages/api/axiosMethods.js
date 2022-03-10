@@ -2,9 +2,9 @@ import axios from 'axios'
 import Cookies from 'js-cookie'
 
 
-const APIBaseUrl = 'https://api-immocoin.herokuapp.com'
-//const APIBaseUrl = 'https://api-immocoin-staging.herokuapp.com'
-//const APIBaseUrl = 'http://localhost:3000'
+//const APIBaseUrl = 'https://immocoin-api-rails.herokuapp.com'
+const APIBaseUrl = 'http://localhost:3000'
+// Group Heroku : const APIBaseUrl = 'https://api-immocoin-herokuapp.com'
 
 const APIRequest = axios.create({ baseURL: APIBaseUrl });
 
