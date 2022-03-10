@@ -20,10 +20,6 @@
 
 Marketplace fictive d'immobilier
 
-## Visiter le site en ligne
-
-[Immocoin Live Verison](https://github.com/TimotheeGimbert/Immocoin-Front-React)<br />
-
 
 ## Utiliser l'application localement
 > Ouvrez un terminal et taper les commandes suivantes :
