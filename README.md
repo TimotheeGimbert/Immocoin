@@ -18,19 +18,35 @@
 
 ## Pitch du projet
 
-Marketplace d'immobilier, c'est très cool
+Marketplace fictive d'immobilier
 
-## Liens Utiles
+## Visiter le site en ligne
 
-[Pour visiter le site, c'est par ici !](https://immocoincoin.herokuapp.com)<br />
-[Repo du backend](https://github.com/talmidiel/immocoin-api)
+[Immocoin Live Verison](https://github.com/TimotheeGimbert/Immocoin-Front-React)<br />
 
-## Installation
 
-1. `yarn`
+## Utiliser l'application localement
+> Ouvrez un terminal et taper les commandes suivantes :
+1. mkdir immocoin
+1. cd immocoin
+1. git clone git@github.com:TimotheeGimbert/Immocoin-Front-React.git
+1. git clone git@github.com:TimotheeGimbert/Immocoin-API-Rails.git
+1. cd Immocoin-API-Rails/
+1. bundle install
+1. touch ./config/master.key
+> Placez votre master key dans ./config/master.key
+1. rails db:create
+1. rails db:migrate
+1. rails db:seed
+1. si erreur: rails db:reset
+1. rails server
+> Ouvrez un deuxième terminal avec CTRL+MAJ+E
+1. cd ../Immocoin-Front-React/
+1. `yarn install`
+1. Editer le fichier ./pages/api/axiosMethods.js et inverse les commentaires des lignes const APIBaseUrl
 1. `yarn dev`
-1. Go to [http://localhost:3000](http://localhost:3000)
-1. Lezgo !
+1. Go to [http://localhost:3001](http://localhost:3001)
+
 
 ## L'Equipe
 
@@ -42,3 +58,7 @@ Marketplace d'immobilier, c'est très cool
 ## Crédits et remerciements
 
 Merci à [The Hacking Project](https://www.thehackingproject.org/) et à tous les moussaillons pour cette formation de qualité !
+
+## Liens utiles
+
+[Repo du backend](https://github.com/TimotheeGimbert/Immocoin-API-Rails)
