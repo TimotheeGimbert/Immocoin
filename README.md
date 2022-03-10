@@ -39,7 +39,6 @@ Marketplace fictive d'immobilier
 > Ouvrez un deuxième terminal avec CTRL+MAJ+E
 1. cd ../Immocoin-Front-React/
 1. `yarn install`
-1. Editer le fichier ./pages/api/axiosMethods.js et inverse les commentaires des lignes const APIBaseUrl
 1. `yarn dev`
 1. Go to [http://localhost:3001](http://localhost:3001)
 
