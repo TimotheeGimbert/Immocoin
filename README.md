@@ -18,34 +18,10 @@
 
 ## Pitch du projet
 
-Marketplace fictive d'immobilier
+Marketplace immobilière (fictive)
 
 ## Lien live Vercel (production)
-Go to [Immocoin](https://immocoin-51.vercel.app)
-
-
-
-## Utiliser l'application localement
-> Ouvrez un terminal et taper les commandes suivantes :
-1. mkdir immocoin
-1. cd immocoin
-1. git clone git@github.com:TimotheeGimbert/Immocoin-Front-React.git
-1. git clone git@github.com:TimotheeGimbert/Immocoin-API-Rails.git
-1. cd Immocoin-API-Rails/
-1. bundle install
-1. touch ./config/master.key
-> Placez votre master key dans ./config/master.key
-1. rails db:create
-1. rails db:migrate
-1. rails db:seed
-1. si erreur: rails db:reset
-1. rails server
-> Ouvrez un deuxième terminal avec CTRL+MAJ+E
-1. cd ../Immocoin-Front-React/
-1. `yarn install`
-1. `yarn dev`
-1. Go to [http://localhost:3001](http://localhost:3001)
-
+Découvrir [Immocoin](https://immocoin.vercel.app/)
 
 ## L'Equipe
 
