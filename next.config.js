@@ -2,8 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['https://immocoin-api-rails.herokuapp.com', 'localhost']
-    // group heroku : domains: ["api-immocoin.herokuapp.com", "api-immocoin-staging.herokuapp.com"]
+    domains: ['https://immocoin-api-51.herokuapp.com/', 'localhost', 'api-immocoin.herokuapp.com']
   }
 }
 
